@@ -51,4 +51,3 @@ contract ucartx is ERC721Full {
     }
     
     function TransferFrom(address from, address to, uint256 tokenId) external;
-}
