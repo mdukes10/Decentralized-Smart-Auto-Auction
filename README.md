@@ -1,6 +1,6 @@
 # Decentralized Smart Auto Auction
 
-![Autos](auto_lot.png)
+![alt-text](auto_lot.png)
 
 ### Goal:
 Non-fungible tokenized auto auction, built with a Smart Contract and deployed to a decentralized blockchain dApp that uses ChatBot functionalities to easily interact with highest bidders.
@@ -18,3 +18,10 @@ Front-end Conversational User Interfaces (CUI's, i.e ChatBot) that collects sell
 * MetaMask [MetaMask Download](https://metamask.io/download.html)
 * AWS 
 * Conversational User Interfaces (CUI's)
+
+### Deploying SmartContracts
+Deploying CarAuction contract:
+![alt-text](https://github.com/mdukes10/Fleet-Contracts/blob/main/Images/deployCarAuction.gif)
+
+Deploying CarMarket contract: 
+![alt-text](https://github.com/mdukes10/Fleet-Contracts/blob/main/Images/deployCarMarket.gif)
