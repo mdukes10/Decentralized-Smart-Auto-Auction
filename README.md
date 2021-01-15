@@ -35,4 +35,4 @@ Load ```CarAuction.sol``` into the Remix IDE. Follow the above install guide for
 #### Deploying CarMarket contract: 
 * Using compiler version 0.5.17 and pragma solidity ^0.5.0, compile the ```CarMarket.sol``` file.
 * Using the deploy & run transaction feature in remix, make sure to switch over to the "CarMarket - browser/CarMarket.sol" then click DEPLOY. Your MetaMask account will confirm that you want to deploy this contract click CONFIRM. You will then have the option to "View on Etherscan" as well as notice that your contract is listed under the "Deployed Contracts" section in Remix with all the functions written in the contract. You should now have 2 deployed contracts listed; CarAuction and CarMarket with unique contract address'.
-![alt-text](https://github.com/mdukes10/Fleet-Contracts/blob/main/Images/deployCarMarket.gif)
+![alt-text-1](https://github.com/mdukes10/Fleet-Contracts/blob/main/Images/deployCarMarket.gif)
