@@ -1,6 +1,6 @@
 # Decentralized Smart Auto Auction
 
-![alt-text](auto_lot.png)
+![alt-text](https://github.com/mdukes10/Fleet-Contracts/blob/main/Images/auto_lot.png)
 
 ### Goal:
 Non-fungible tokenized auto auction, built with a Smart Contract and deployed to a decentralized blockchain dApp that uses ChatBot functionalities to easily interact with highest bidders.
