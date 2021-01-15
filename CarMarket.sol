@@ -25,7 +25,7 @@ contract CarMarket is ERC721Full, Ownable {
         auctions[token_id] = new CarAuction(foundation_address);
     }
 
-    function registerCar(string memory uri) public payable onlyOwner {
+    function registerCar(string memory uri, string memory vin, string memory year, string memory make, string memory model, string memory state, uint miles, uint accidents, uint initial_value) public payable onlyOwner {
         token_ids.increment();
         uint token_id = token_ids.current();
         _mint(foundation_address, token_id);
