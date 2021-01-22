@@ -60,6 +60,9 @@ contract CarAuction {
         highestBid = msg.value;
         emit HighestBidIncreased(sender, msg.value);
     }
+    
+    
+    
 
     /// Withdraw a bid that was overbid.
     function withdraw() public returns (bool) {
@@ -101,7 +104,7 @@ contract CarAuction {
 
         // 1. Conditions
         require(!ended, "auctionEnd has already been called.");
-        require(msg.sender == deployer, "You are not the auction deployer!");
+   //     require(msg.sender == deployer, "You are not the auction deployer!");
 
         // 2. Effects
         ended = true;
