@@ -28,11 +28,11 @@ To install MetaMask, follow these steps:
 
 * If MetaMask was successfully installed, you will see a small fox icon in the web browser's extensions list. If this does not show up, revisit the previous steps.
 
-  ![MetaMask extension icon](Images/metamask-extension-icon.png)
+  ![MetaMask extension icon](/Users/prestonclaypoole/Desktop/Boot_Camp/Projects/Project_3/Fleet-Contracts/Images/Supplemental_Images/Images/metamask-extension-icon.png)
 
 * Optionally, in the latest version of Google Chrome, you can pin the MetaMask extension to your toolbar.
 
-  ![Pinning MetaMask extension to the toolbar](Images/metamask-pinning-extension.gif)
+  ![Pinning MetaMask extension to the toolbar](/Users/prestonclaypoole/Desktop/Boot_Camp/Projects/Project_3/Fleet-Contracts/Images/Supplemental_Images/Images/metamask-pinning-extension.gif)
 
 * Click the "Get Started" button to start configuring your MetaMask account.
 
