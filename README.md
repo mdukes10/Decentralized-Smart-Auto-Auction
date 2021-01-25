@@ -21,11 +21,13 @@ Allow users to buy or sell vehicles (non-fungible assets) on a decentralized net
 * Ganache Install 
 * Remix IDE Install
 * MetaMask Install Extension (Crypto Wallet)
+* AWS
+* Conversational User Interfaces (CUI's)
+* Reccomended Browser: Firefox (Note: you may encounter complier errors using google chrome or Brave browser.)
 
 
 
 # Install Instructions
-* Solidify
 * Ganache [Ganache Install](https://www.trufflesuite.com/docs/ganache/quickstart) 
 * Remix IDE [Remix Install](https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.7.4+commit.3f05b770.js)
 * MetaMask [MetaMask Download](https://metamask.io/download.html)
