@@ -34,7 +34,7 @@ Allow users to buy or sell vehicles (non-fungible assets) on a decentralized net
 * Open Ganache
 * Open remix IDE in your browser (FireFox Recommended)
 * Connect MetaMask to the remix IDE and switch to localhost network on MetaMask
-* From the "Home" tab in the remix IDE use "open files to load the SmartContract files into the remix IDE from your device.
+* From the "Home" tab in the remix IDE use "open files" to load the SmartContract files into the remix IDE from your device.
 * When finished loading the files make sure you have loaded CarAuction.sol, BidderDto.sol, CarDto.sol and ServiceLayer.sol in to the remix IDE
 * Switch the compiler version in the remix IDE to version 0.5.5 and compile each contract
 * Navigate to Deploy & Run Transactions on the left side of the remix IDE
