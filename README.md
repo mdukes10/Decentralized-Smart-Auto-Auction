@@ -23,21 +23,27 @@ Allow users to buy or sell vehicles (non-fungible assets) on a decentralized net
 * MetaMask Install Extension (Crypto Wallet)
 * AWS
 * Conversational User Interfaces (CUI's)
-* Reccomended Browser: Firefox (Note: you may encounter complier errors using google chrome or Brave browser.)
-
-
+* Recommended Browser: Firefox (Note: you may encounter complier errors using google chrome or Brave browser.)
 
 # Install Instructions
 * Ganache [Ganache Install](https://www.trufflesuite.com/docs/ganache/quickstart) 
 * Remix IDE [Remix Install](https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.7.4+commit.3f05b770.js)
 * MetaMask [MetaMask Download](https://metamask.io/download.html)
-* AWS 
-* Conversational User Interfaces (CUI's)
 
-# Smart Contract Compiler 
+# Compile/Deploy SmartContracts
+* Open Ganache
+* Open remix IDE in your browser (FireFox Recommended)
+* Connect MetaMask to the remix IDE and switch to localhost network on MetaMask
+* From the "Home" tab in the remix IDE use "open files to load the SmartContract files into the remix IDE from your device.
+* When finished loading the files make sure you have loaded CarAuction.sol, BidderDto.sol, CarDto.sol and ServiceLayer.sol in to the remix IDE
+* Switch the compiler version in the remix IDE to version 0.5.5 and compile each contract
+* Navigate to Deploy & Run Transactions on the left side of the remix IDE
+* Change the environment to Inject Web3, switch to the Ganache wallet address desired and click "Deploy"
+* Confirm the transaction to deploy in MetaMask when propted. ServiceLayer is listed under "Deployed Contracts" in the remix IDE
+* Congratulations! You are now ready to interact with the ServiceLayer SmartContract!
 * Uses OpenZepplin contracts to import ERC721 standard ,which tokenizes non-fungible assets into unique tokens to create secure transactions.
 * Uses mapping and events
-* Uses functions like createAuction, registerCar, addBidders, viewCars, endAuction, highestBid, highestBidder, bid
+* Note the various functions like createAuction, registerCar, addBidders, etc. these will be used to register cars as tokens, create an auction, and add bidders to said auction.
 * SEE CODE (ServiceLayer.sol)
 
 ![sldeploy](Images/SLdeploy.gif)
