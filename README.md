@@ -11,7 +11,7 @@ Create a Smart Contract on the Blockchain that executes the following functions:
 * Transact Highest Bid 
 * Execution via Python or Wallet Extension (MetaMask). 
 # Problem Solved
-Allow users to buy or sell vehicles (non-fungible assets) on a decentralized network and transact through SmartContracts avoiding traditional methods of payment (i.e. using Crypto). 
+Digitize a car auction using ethereum SmartContracts. This allows users to tokenize a nonfungible asset that they own, create/host a digital auction for the asset or token, and collect the proceeds from the auction directly. With this solution SmartContracts replace most of the functionality of a third parties required in a traditional live auction. By replacing third party auction or transaction facilitators with SmartContracts, buyers and sellers can interact directly without the need for a third party and fees associated with traditional auctions. 
 
 # Neccessary Equipment
 
